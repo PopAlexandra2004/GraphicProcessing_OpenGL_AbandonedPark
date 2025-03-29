@@ -1,0 +1,10 @@
+^C:\USERS\ANDRA\SOURCE\REPOS\PROJECTOPENGL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/andra/source/repos/ProjectOpenGL -BC:/Users/andra/source/repos/ProjectOpenGL/build --check-stamp-file C:/Users/andra/source/repos/ProjectOpenGL/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

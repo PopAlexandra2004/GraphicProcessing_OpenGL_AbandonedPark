@@ -1,0 +1,3 @@
+C:/Users/andra/source/repos/ProjectOpenGL/build/CMakeFiles/ProjectOpenGL.dir
+C:/Users/andra/source/repos/ProjectOpenGL/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/andra/source/repos/ProjectOpenGL/build/CMakeFiles/ZERO_CHECK.dir

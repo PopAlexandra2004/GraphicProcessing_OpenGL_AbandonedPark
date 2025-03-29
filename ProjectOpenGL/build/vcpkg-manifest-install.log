@@ -1,0 +1,50 @@
+Detecting compiler hash for triplet x64-windows...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+  * egl-registry:x64-windows@2024-01-25 -- C:\Users\andra\source\repos\ProjectOpenGL\vcpkg\buildtrees\versioning_\versions\egl-registry\d883db43133dd223c4ffdbef4193943f6784d43a
+    glew:x64-windows@2.2.0#5 -- C:\Users\andra\source\repos\ProjectOpenGL\vcpkg\buildtrees\versioning_\versions\glew\deee148de63ca706630edc3408d1c9a471f8884f
+    glfw3:x64-windows@3.4#1 -- C:\Users\andra\source\repos\ProjectOpenGL\vcpkg\buildtrees\versioning_\versions\glfw3\d4bbd4f27c2ca619f57778985120cddcedadb1cc
+  * opengl:x64-windows@2022-12-04#3 -- C:\Users\andra\source\repos\ProjectOpenGL\vcpkg\buildtrees\versioning_\versions\opengl\c3ae71738f88449ebcd781cef60d9a253fa091d4
+  * opengl-registry:x64-windows@2024-02-10#1 -- C:\Users\andra\source\repos\ProjectOpenGL\vcpkg\buildtrees\versioning_\versions\opengl-registry\22f7aa58ee78c9f0db904b6251e9265f2be26f9d
+  * vcpkg-cmake:x64-windows@2024-04-23 -- C:\Users\andra\source\repos\ProjectOpenGL\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake\e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:x64-windows@2024-05-23 -- C:\Users\andra\source\repos\ProjectOpenGL\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake-config\97a63e4bc1a17422ffe4eff71da53b4b561a7841
+Additional packages (*) will be modified to complete this operation.
+Restored 7 package(s) from C:\Users\andra\AppData\Local\vcpkg\archives in 81.9 ms. Use --debug to see more details.
+Installing 1/7 vcpkg-cmake-config:x64-windows@2024-05-23...
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 4.22 ms
+vcpkg-cmake-config:x64-windows package ABI: a84b7c9ad9344ce742623f39cde78d0d306c070c7429182fe624517900139e58
+Installing 2/7 vcpkg-cmake:x64-windows@2024-04-23...
+Elapsed time to handle vcpkg-cmake:x64-windows: 5.21 ms
+vcpkg-cmake:x64-windows package ABI: f45e0c580897e23aaf57c3902d5ecb3dbe0c1300c30797bca2b5e73fb43424f6
+Installing 3/7 egl-registry:x64-windows@2024-01-25...
+Elapsed time to handle egl-registry:x64-windows: 5.33 ms
+egl-registry:x64-windows package ABI: 38133a94080e28ce4d4aabb79246fd35074b72195d7cf25f5b3a5f83c82d25ed
+Installing 4/7 opengl-registry:x64-windows@2024-02-10#1...
+Elapsed time to handle opengl-registry:x64-windows: 11.2 ms
+opengl-registry:x64-windows package ABI: 7bcb1ead8e16611b7b326938a69d77c6a7a48b40de02b2aa6d360e46300f328a
+Installing 5/7 opengl:x64-windows@2022-12-04#3...
+Elapsed time to handle opengl:x64-windows: 7.61 ms
+opengl:x64-windows package ABI: f868da400b74885d1e173f6d70b526f45ca869b04b1f6704a3ffbd465b774419
+Installing 6/7 glew:x64-windows@2.2.0#5...
+Elapsed time to handle glew:x64-windows: 7.95 ms
+glew:x64-windows package ABI: 9cae45ad3ea0cfb322a0b863209ff09786b448e98e68ce0db5a64bdc6e50a201
+Installing 7/7 glfw3:x64-windows@3.4#1...
+Elapsed time to handle glfw3:x64-windows: 7.26 ms
+glfw3:x64-windows package ABI: 9e05c8aea08ad1e095d05ee9f9bce1a5ca573b3bf1efaec72bd60df79e75bd79
+Total install time: 84.6 ms
+The package glew is compatible with built-in CMake targets:
+
+    find_package(GLEW REQUIRED)
+    target_link_libraries(main PRIVATE GLEW::GLEW)
+
+glfw3 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glfw3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glfw)
+
+glfw3 provides pkg-config modules:
+
+  # A multi-platform library for OpenGL, window and input
+  glfw3
+

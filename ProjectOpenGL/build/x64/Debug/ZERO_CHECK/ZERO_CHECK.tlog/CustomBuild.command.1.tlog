@@ -1,0 +1,10 @@
+^C:\USERS\ANDRA\SOURCE\REPOS\PROJECTOPENGL\BUILD\CMAKEFILES\E85D5B6A51C8E9D11EAA0BF7525BDCA3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/andra/source/repos/ProjectOpenGL -BC:/Users/andra/source/repos/ProjectOpenGL/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/andra/source/repos/ProjectOpenGL/build/ProjectOpenGL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

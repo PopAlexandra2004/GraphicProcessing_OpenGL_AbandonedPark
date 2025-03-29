@@ -1,0 +1,10 @@
+^C:\USERS\ANDRA\SOURCE\REPOS\PROJECTOPENGL\VCPKG\BUILDTREES\GLEW\SRC\GLEW-80F5997FEB.CLEAN\BUILD\CMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/andra/source/repos/ProjectOpenGL/vcpkg/buildtrees/glew/src/glew-80f5997feb.clean/build/cmake -BC:/Users/andra/source/repos/ProjectOpenGL --check-stamp-file C:/Users/andra/source/repos/ProjectOpenGL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

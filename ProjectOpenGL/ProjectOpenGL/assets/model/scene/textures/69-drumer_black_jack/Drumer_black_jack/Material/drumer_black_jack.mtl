@@ -1,0 +1,151 @@
+# Blender MTL File: 'drumer_black_jack.blend'
+# Material Count: 14
+
+newmtl Material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.003822 0.003513 0.003822
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Drumer_black_jack\\Texturizer\\uv_bass_drum_2.png
+
+newmtl col_2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.003837 0.003515 0.003916
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.600000
+illum 2
+
+newmtl col_3
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.156790 0.156790 0.156790
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl col_4
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.740655 0.740655 0.740655
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl C:\\Users\\zak keren\\Desktop\\Drumer_black_jack\\Texturizer\\Blury.jpg
+
+newmtl col_4_DR.jpg
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.740655 0.740655 0.740655
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\zak keren\Desktop\Drumer_black_jack\Texturizer\DR.jpg
+refl C:\\Users\\zak keren\\Desktop\\Drumer_black_jack\\Texturizer\\Blury.jpg
+
+newmtl col_5
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.014800 0.015506 0.012167
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_5_transparant
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.125942 0.111643 0.108467
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.300000
+illum 2
+
+newmtl col_6
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_master_drums_kits
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.417111 0.529486 0.086441
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl uv_ampli_2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.033849 0.033849 0.033849
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Drumer_black_jack\\Texturizer\\uv_ampli_2.png
+
+newmtl uv_ampli_3
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.033849 0.033849 0.033849
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Drumer_black_jack\\Texturizer\\uv_ampli_3.png
+
+newmtl uv_lantai
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.273532 0.139718 0.016975
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Drumer_black_jack\\Texturizer\\hard_wood.jpg
+
+newmtl uv_speaker_2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.014800 0.015506 0.012167
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Drumer_black_jack\\Texturizer\\speaker_2.png
+
+newmtl uv_symbal
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.441609 0.620658 0.008768
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl C:\\Users\\zak keren\\Desktop\\Drumer_black_jack\\Texturizer\\1299712.jpg
